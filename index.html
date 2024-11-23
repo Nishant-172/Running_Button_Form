@@ -1,24 +1,38 @@
-<!-- #this is code for a running form button , when user enter a key he will able to fill form  -->
 <!DOCTYPE html>
+<!-- Ye line bata rahi hai browser ko ki yaar ye modern HTML ka page hai -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Ye bata raha hai ki bhai text encoding UTF-8 use kar rahe hain, sab emojis dikhne chahiye 😎 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Responsive design ka raaz: Ye viewport meta tag hai -->
   <title>Interactive Contact Form</title>
+  <!-- Tab ka title set kar diya, kyunki naam hona zaroori hai! -->
   <link rel="stylesheet" href="styles.css">
+  <!-- CSS file connect kar diya, bina design to page boring lagta hai 😴 -->
 </head>
 <body>
   <div class="form-container">
+    <!-- Ek div banaya jo form ko stylish banane ka kaam karega -->
     <h2>Contact Us</h2>
+    <!-- Heading diya taki user ko lage ki yaha serious kaam ho raha hai -->
     <form id="contactForm">
+      <!-- Form ka shuruaat, bina form ke form submit kaise hoga bhai! -->
       <input type="text" id="name" placeholder="Enter your name" required />
+      <!-- User ka naam lene ke liye text input field -->
       <input type="email" id="email" placeholder="Enter your email" required />
+      <!-- Email bhi maang rahe hain, bina email kaise reply karenge! -->
       <input type="text" id="key" placeholder="Enter the secret key" />
+      <!-- Yaha secret key maang rahe hain, Nishant ka naam daalo warna button bhaag jaayega 😜 -->
       <p class="hint">Hint: Who is the best graphic designer?</p>
+      <!-- Thoda help bhi de rahe hain, kyunki life mein hints zaroori hain -->
       <button type="button" id="submitBtn" class="submit-btn">Submit</button>
+      <!-- Submit button diya hai, but mazaak karenge button ke saath -->
       <p class="success-message" id="successMessage">Form submitted successfully!</p>
+      <!-- Success message hidden rakha hai, Nishant ka naam likho, tabhi dikhega -->
     </form>
   </div>
   <script src="script.js"></script>
+  <!-- JavaScript file connect kar diya, bina JS kaise mazaak chalega? -->
 </body>
 </html>
