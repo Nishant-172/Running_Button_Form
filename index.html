@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Contact Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <input type="text" id="key" placeholder="Enter the secret key" />
+      <p class="hint">Hint: Who is the best graphic designer?</p>
+      <button type="button" id="submitBtn" class="submit-btn">Submit</button>
+      <p class="success-message" id="successMessage">Form submitted successfully!</p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
